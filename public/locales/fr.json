@@ -1,0 +1,44 @@
+{
+  "name": "Gor Rubenyan",
+  "position": "Développeur Frontend",
+  "bio": "Je suis spécialisé dans la création d'applications web de haute qualité avec HTML, CSS, JavaScript, React, Redux Toolkit, Next.js, Vite et Tailwind CSS. Je conçois des interfaces modernes, responsives et conviviales, offrant des expériences numériques exceptionnelles.",
+
+  "navHero": "Accueil",
+  "navAbout": "À propos",
+  "navSkills": "Compétences",
+  "navProjects": "Projets",
+  "navWork": "Expérience",
+  "navContact": "Contact",
+
+  "contactMe": "Me contacter",
+  "downloadCV": "Télécharger CV",
+  "getInTouch": "Entrer en contact",
+
+  "aboutTitle": "À propos de moi",
+  "aboutText": "Je suis un développeur web avec plus de 3 ans d'expérience en développement frontend, spécialisé dans React, Next.js et les technologies web modernes. Je suis passionné par la création d'expériences utilisateur fonctionnelles et esthétiques.",
+  "aboutText2": "Mon parcours dans le développement web a commencé par une curiosité sur le fonctionnement des sites web, et s'est transformé en une carrière axée sur la conception de solutions numériques ayant un impact réel. Je crois en l'écriture d'un code propre, maintenable et en me tenant à jour avec les dernières tendances de l'industrie.",
+  "projectsCompleted": "Projets Réalisés",
+  "yearsExperience": "Années d'Expérience",
+
+  "skillsTitle": "Compétences Techniques",
+
+  "projectsTitle": "Projets Phares",
+  "projectsPortfolio": "Un site web portfolio moderne et responsive construit avec Next.js et Tailwind CSS, incluant un mode sombre, un support multilingue et des animations fluides.",
+  "projectsTask": "Une application complète de gestion des tâches avec mises à jour en temps réel, authentification des utilisateurs et fonctionnalité intuitive de glisser-déposer.",
+  "projectsEcommerce": "Une plateforme e-commerce complète avec intégration de paiements, gestion d'inventaire et fonctionnalité avancée de panier d'achat.",
+  "code": "Code",
+  "live": "Démo en Direct",
+
+  "workTitle": "Expérience Professionnelle",
+  "workText": "Développement et maintenance d'interfaces web modernes utilisant React, Next.js et Tailwind CSS. Collaboration avec des équipes transversales pour livrer des applications web de haute qualité et amélioration des métriques d'expérience utilisateur de 40%.",
+  "present": "Présent",
+
+  "educationTitle": "Éducation",
+  "educationDegree": "Licence en Informatique",
+
+  "contactTitle": "Travaillons Ensemble",
+  "contactText": "Je suis toujours à la recherche de nouvelles opportunités et projets passionnants. N'hésitez pas à me contacter si vous souhaitez collaborer ou simplement échanger.",
+  "email": "Email",
+  "phone": "Téléphone",
+  "location": "Localisation"
+}
