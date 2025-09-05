@@ -44,7 +44,7 @@ const About: React.FC<AboutProps> = ({ aboutRef, t }) => {
                                 alt="About"
                                 priority={true}
                                 fill
-                                className="rounded-lg shadow-xl object-fill"
+                                className="rounded-lg shadow-xl object-cover"
                             />
                         </div>
                     </div>

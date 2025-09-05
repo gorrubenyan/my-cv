@@ -1,5 +1,7 @@
-import React from 'react';
+// File: components/Contact.tsx
+import React, { useState } from 'react';
 import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi';
+import ContactModal from './ContactModal';
 
 interface ContactProps {
     contactRef: React.RefObject<HTMLDivElement | null>;
@@ -7,6 +9,8 @@ interface ContactProps {
 }
 
 const Contact: React.FC<ContactProps> = ({ contactRef, t }) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <section ref={contactRef} className="py-30 px-6 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
             <div className="max-w-4xl mx-auto text-center">
@@ -39,10 +43,18 @@ const Contact: React.FC<ContactProps> = ({ contactRef, t }) => {
                     </div>
                 </div>
 
-                <a href="mailto:g_rubenyan@mail.ru" className="px-8 py-4 bg-gradient-to-r w-fit from-blue-600 to-purple-600 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2 mx-auto">
+                {/* Button replaces the anchor — appearance preserved */}
+                <button
+                    type="button"
+                    onClick={() => setIsModalOpen(true)}
+                    className="px-8 py-4 bg-gradient-to-r w-fit from-blue-600 to-purple-600 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2 mx-auto"
+                >
                     <HiOutlineMail className="text-xl" />
                     {t('getInTouch')}
-                </a>
+                </button>
+
+                {/* Modal component (separate file) */}
+                <ContactModal open={isModalOpen} onClose={() => setIsModalOpen(false)} t={t} />
             </div>
         </section>
     );

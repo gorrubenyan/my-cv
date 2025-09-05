@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaCode, FaEye, FaGithub} from 'react-icons/fa';
+import Image from "next/image";
 
 interface Project {
     title: string;
@@ -21,8 +22,8 @@ const projects: Project[] = [
         description: 'projectsPortfolio',
         image: '/project1.jpg',
         tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-        github: 'https://github.com/yourusername/portfolio',
-        live: 'https://yourportfolio.com'
+        github: 'https://github.com/gorrubenyan/my-cv',
+        live: 'https://my-cv-beta-mauve.vercel.app/'
     },
     // {
     //     title: 'Task Manager App',
@@ -54,9 +55,17 @@ const Projects: React.FC<ProjectsProps> = ({ projectsRef, t }) => {
                     {projects.map((project, index) => (
                         <div key={index} className="w-full md:w-1/3 bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
                             <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 relative overflow-hidden">
-                                <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                                    <FaCode className="text-white text-4xl" />
-                                </div>
+                                {/*<div className="absolute inset-0 bg-black/20 flex items-center justify-center">*/}
+                                {/*    <FaCode className="text-white text-4xl" />*/}
+                                {/*</div>*/}
+                                <Image
+                                    sizes='15'
+                                    src="/screen.png"
+                                    alt="About"
+                                    priority={true}
+                                    fill
+                                    className="rounded-lg shadow-xl object-cover"
+                                />
                             </div>
 
                             <div className="p-6">

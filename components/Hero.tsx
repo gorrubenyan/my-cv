@@ -59,7 +59,7 @@ const Hero: React.FC<HeroProps> = ({ heroRef, typedText, t, scrollToSection, con
                     </button>
 
                     <a
-                        href="/cv.pdf"
+                        href="/GOR-RUBENYAN-CV.pdf"
                         download
                         className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center gap-2"
                     >
@@ -70,10 +70,10 @@ const Hero: React.FC<HeroProps> = ({ heroRef, typedText, t, scrollToSection, con
 
                 <div className="flex justify-center gap-6 mt-12 animate-fade-in-up-delay-3">
                     {[
-                        { icon: FaGithub, href: 'https://github.com/yourusername', color: 'hover:text-gray-700 dark:hover:text-white' },
-                        { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', color: 'hover:text-blue-700 dark:hover:text-blue-400' },
-                        { icon: FaTwitter, href: 'https://twitter.com/yourusername', color: 'hover:text-sky-500' },
-                        { icon: FaInstagram, href: 'https://instagram.com/yourusername', color: 'hover:text-pink-500' }
+                        { icon: FaGithub, href: 'https://github.com/gorrubenyan', color: 'hover:text-gray-700 dark:hover:text-white' },
+                        // { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', color: 'hover:text-blue-700 dark:hover:text-blue-400' },
+                        // { icon: FaTwitter, href: 'https://twitter.com/yourusername', color: 'hover:text-sky-500' },
+                        // { icon: FaInstagram, href: 'https://instagram.com/yourusername', color: 'hover:text-pink-500' }
                     ].map(({ icon: Icon, href, color }, index) => (
                         <a
                             key={index}
