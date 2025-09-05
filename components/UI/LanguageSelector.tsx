@@ -10,8 +10,8 @@ interface Language {
 }
 
 const languages: Language[] = [
-    { code: 'en', name: 'English', countryCode: 'us' },
     { code: 'hy', name: 'Հայերեն', countryCode: 'am' },
+    { code: 'en', name: 'English', countryCode: 'us' },
     { code: 'ru', name: 'Русский', countryCode: 'ru' },
     // { code: 'es', name: 'Español', countryCode: 'es' },
     // { code: 'fr', name: 'Français', countryCode: 'fr' }

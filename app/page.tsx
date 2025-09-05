@@ -12,7 +12,7 @@ import ScrollToTop from '../components/ScrollToTop';
 
 export default function Home() {
     // Initialize states
-    const [lang, setLang] = useState('en');
+    const [lang, setLang] = useState('hy');
     const [dark, setDark] = useState(true);
     const [showScrollTop, setShowScrollTop] = useState(false);
     const [activeSection, setActiveSection] = useState('hero');

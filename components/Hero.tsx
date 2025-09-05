@@ -59,7 +59,7 @@ const Hero: React.FC<HeroProps> = ({ heroRef, typedText, t, scrollToSection, con
                     </button>
 
                     <a
-                        href="/GOR-RUBENYAN-CV.pdf"
+                        href="/Gor-Rubenyan.pdf"
                         download
                         className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center gap-2"
                     >
