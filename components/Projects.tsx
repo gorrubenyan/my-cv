@@ -52,7 +52,7 @@ const Projects: React.FC<ProjectsProps> = ({ projectsRef, t }) => {
 
                 <div className="flex justify-center md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
-                        <div key={index} className="w-1/3 bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <div key={index} className="w-full md:w-1/3 bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
                             <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 relative overflow-hidden">
                                 <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                                     <FaCode className="text-white text-4xl" />
